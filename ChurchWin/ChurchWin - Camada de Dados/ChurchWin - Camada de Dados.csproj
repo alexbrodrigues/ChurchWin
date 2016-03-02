@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Classes de Dados\ConexaoSql.cs" />
     <Compile Include="Entidades\Bairro.cs" />
     <Compile Include="Entidades\Caixa.cs" />
     <Compile Include="Entidades\Cargo.cs" />
@@ -53,12 +54,11 @@
     <Compile Include="Entidades\Pais.cs" />
     <Compile Include="Entidades\Pessoa.cs" />
     <Compile Include="Entidades\Tipo.cs" />
+    <Compile Include="Interfaces\IConexaoBD.cs" />
+    <Compile Include="Interfaces\IDados.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Classes de Dados\" />
-    <Folder Include="Interfaces\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
